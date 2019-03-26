@@ -30,10 +30,12 @@ mvn -v
 
 # How to verify Oracle connection in Java
 Oracle11GDebianTest.java
+
 Run the above file in Eclipse or any other editor
 
 # Expected result
 Connecting to database...
+
 Connected
 
 
