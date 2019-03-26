@@ -11,12 +11,26 @@ change ${OTN_PASSWORD} by your Oracle password in test/mvnsettings.xml file
 mvn clean install --settings test/mvnsettings.xml
 ```
 
-# How to use on travis-ci
+# How to install Maven in Mac
+brew update
+brew install maven
 
-![TravisCi](/screenshots/travis-ci.png)
+# Verify Macen
+which mvn
 
-# Continuous Integration status
-[![Build Status](https://travis-ci.org/sgrillon14/MavenSampleOracleJdbc.svg?branch=master)](https://travis-ci.org/sgrillon14/MavenSampleOracleJdbc)
+# Check Maven version
+mvn -v
+
+
+# How to verify Oracle connection in Java
+Oracle11GDebianTest.java
+Run the above file in Eclipse or any other editor
+
+# Expected result
+Connecting to database...
+Connected
+
+
 
 # License
 
