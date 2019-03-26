@@ -17,7 +17,7 @@ brew update
 brew install maven
 ```
 
-## Verify Macen
+## Verify Maven
 ```
 which mvn
 ```
