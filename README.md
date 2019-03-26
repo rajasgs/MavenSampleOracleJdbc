@@ -12,14 +12,20 @@ mvn clean install --settings test/mvnsettings.xml
 ```
 
 # How to install Maven in Mac
+```
 brew update
 brew install maven
+```
 
-# Verify Macen
+## Verify Macen
+```
 which mvn
+```
 
-# Check Maven version
+## Check Maven version
+```
 mvn -v
+```
 
 
 # How to verify Oracle connection in Java
